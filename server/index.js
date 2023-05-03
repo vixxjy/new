@@ -10,6 +10,12 @@ import managementRoutes from "./routes/management.js";
 import generalRoutes from "./routes/general.js";
 import salesRoutes from "./routes/sales.js";
 
+/**
+ * DATA IMPORTATION
+ * */
+
+import User from "./models/User.js";
+
 /*
  * CONFIGURATION
  */
